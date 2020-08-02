@@ -1,0 +1,14 @@
+{application, http_codes, [
+    {description, "All the HTTP Status Codes according to https://httpstatuses.com/"},
+    {vsn, "1.0.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {licenses, ["Apache 2.0"]},
+    {links, ["https://httpstatuses.com/"]}
+]}.
